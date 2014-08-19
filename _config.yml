@@ -1,0 +1,9 @@
+name: Timeline
+url: http://example.org
+description: Record and display what I have done all the way.
+markdown: rdiscount
+permalink: /:year/:month/:day/:title/
+paginate: 10
+highlighter: true
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
