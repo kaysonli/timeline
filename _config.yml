@@ -1,9 +1,11 @@
 name: Timeline
-url: http://example.org
+url: http://lzkwin.github.io/timeline
 description: Record and display what I have done all the way.
 markdown: rdiscount
 permalink: /:year/:month/:day/:title/
 paginate: 10
 highlighter: true
+
+BASE_PATH : /timeline
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
